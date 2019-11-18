@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Patent Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/util.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <div class="limiter">
+        <div class="container-login1">
+            <div class="col-md-12 nav">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/icons/Favicon.svg" width="50px" height="50px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="images/icons/Favicon.svg" width="50px" height="50px">
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="portal.html">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <a class="nav-link" href="#">Logout</a>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="wrap-login" style="margin-top:50px;width:auto!important">
+                <form class="login-form validate-form" id="submitform">
+                    <span class="login-form-title p-b-26">
+                        Provide Few More Details
+                    </span>
+                    <!-- <div class="wrap-input validate-input" data-validate="Valid User Name: Mukesh">
+                        <input class="input" type="text" name="custname" id="custname" required placeholder="User Name">
+                        <span class="focus-input"></span>
+                    </div> -->
+                    <!-- <div class="wrap-input validate-input" data-validate="Valid User Address: Mumbai">
+                        <input class="input" type="text" name="addr" id="addr" required required placeholder="User Address">
+                        <span class="focus-input"></span>
+                    </div> -->
+                    <div class="wrap-input validate-input" data-validate="Valid Title: Mumbai">
+                        <input class="input" type="text" name="title" id="title" required required placeholder="Patent Name">
+                        <span class="focus-input"></span>
+                    </div>
+                    <div class="wrap-input validate-input">
+                        <textarea class="input" type="text" name="description" id="description" required placeholder="Patent Description"></textarea>
+                        <span class="focus-input"></span>
+                    </div>
+                    <div class="wrap-select validate-input">
+                        <select class="select" type="text" name="scope" id="scope" required>
+                            <option selected>Select Scope</option>
+                            <option>Public</option>
+                            <option>Private</option>
+                        </select>
+                        <span class="focus-select"></span>
+                    </div>
+
+                    <div class="wrap-select validate-input">
+                        <select class="select" type="text" name="rights" id="rights" required>
+                            <option selected>Select Rights</option>
+                            <option>Selling</option>
+                            <option>Private</option>
+                        </select>
+                        <span class="focus-select"></span>
+                    </div>
+
+                    <!-- <div class="wrap-select validate-input">
+                        <input class="input" type="date" name="expiryDate" id="expiryDate" required placeholder="Expiry Date">
+
+                    </div> -->
+
+                    <div class="wrap-select validate-input">
+                        <input class="input" type="text" name="contentHash" id="contentHash" required placeholder="Content Hash">
+                        <span class=" focus-input "></span>
+                    </div>
+                    <!-- <div class="wrap-select validate-input">
+                        <input class="input" type="date" name="patentDate" id="patentDate" required placeholder="Patent Date">
+                        <span class=" focus-input "></span>
+                    </div> -->
+                    <!-- <div class="wrap-select validate-input">
+                        <input class="input" type="text" name="setFlag" required placeholder="Content Flag">
+                        <span class=" focus-input "></span>
+                    </div>
+                    <div class="wrap-select validate-input">
+                        <input class="input" type="text" name="ownershipNumber" id="ownershipNumber" required placeholder="Ownership Number">
+                        <span class=" focus-input "></span>
+                    </div> -->
+
+                    <div class="container-login-form-btn ">
+                        <div class="wrap-login-form-btn ">
+                            <div class="login-form-bgbtn "></div>
+                            <button class="login-form-btn" type="submit" id="savepatent">
+                                Register Patent
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+
+                        <span id="Result"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+        <script>
+            function getUrlVars() {
+                var vars = {};
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                    vars[key] = value;
+                });
+                return vars;
+            }
+            var number = getUrlVars()["Hashaddress"];
+            document.getElementById("contentHash").value = number;
+        </script>
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/web3.min.js "></script>
+        <script src="js/app.js "></script>
+        <script src="js/truffle-contract.js "></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
