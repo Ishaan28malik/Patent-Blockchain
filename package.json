@@ -20,7 +20,7 @@
     "require.js": "^1.0.0"
   },
   "devDependencies": {
-    "webpack": "^4.17.1"
+    "webpack": "^4.44.2"
   },
   "browser": {
     "fs": false
