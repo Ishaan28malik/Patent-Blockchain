@@ -1156,9 +1156,9 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cryptiles@0.2.x:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-0.2.2.tgz#ed91ff1f17ad13d3748288594f8a48a0d26f325c"
+cryptiles@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-4.1.2.tgz#ed91ff1f17ad13d3748288594f8a48a0d26f325c"
   integrity sha1-7ZH/HxetE9N0gohZT4pIoNJvMlw=
   dependencies:
     boom "0.4.x"
@@ -1938,7 +1938,7 @@ hawk@~1.0.0:
   integrity sha1-uQuxaYByhUEdp//LjdJZhQLTtS0=
   dependencies:
     boom "0.4.x"
-    cryptiles "0.2.x"
+    cryptiles "4.1.2"
     hoek "0.9.x"
     sntp "0.2.x"
 
