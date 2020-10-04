@@ -186,7 +186,7 @@ ajax-request@^1.2.3:
   integrity sha1-mfy+wdbSeS+F+pSVNTMr0U9fN5A=
   dependencies:
     file-system "^2.1.1"
-    utils-extend "^1.0.7"
+    utils-extend "^1.0.8"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1620,7 +1620,7 @@ file-match@^1.0.1:
   resolved "https://registry.yarnpkg.com/file-match/-/file-match-1.0.2.tgz#c9cad265d2c8adf3a81475b0df475859069faef7"
   integrity sha1-ycrSZdLIrfOoFHWw30dYWQafrvc=
   dependencies:
-    utils-extend "^1.0.6"
+    utils-extend "^1.0.8"
 
 file-system@^2.1.1, file-system@^2.2.2:
   version "2.2.2"
@@ -4566,7 +4566,7 @@ util@^0.11.0:
   dependencies:
     inherits "2.0.3"
 
-utils-extend@^1.0.4, utils-extend@^1.0.6, utils-extend@^1.0.7:
+utils-extend@^1.0.8, utils-extend@^1.0.8, utils-extend@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/utils-extend/-/utils-extend-1.0.8.tgz#ccfd7b64540f8e90ee21eec57769d0651cab8a5f"
   integrity sha1-zP17ZFQPjpDuIe7Fd2nQZRyril8=
