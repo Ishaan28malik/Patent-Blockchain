@@ -3077,7 +3077,7 @@ node-modules@^1.0.1:
     colors "~0.6.2"
     optimist "~0.6.0"
     osenv "0.0.3"
-    request "~2.27.0"
+    request "~2.68.0"
     stream-wrapper "~0.1.2"
 
 node-uuid@~1.4.0:
@@ -3691,9 +3691,9 @@ repeat-string@^1.6.1:
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
-request@~2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/request/-/request-2.27.0.tgz#dfb1a224dd3a5a9bade4337012503d710e538668"
+request@~2.68.0:
+  version "2.68.0"
+  resolved "https://registry.yarnpkg.com/request/-/request-2.68.0.tgz#dfb1a224dd3a5a9bade4337012503d710e538668"
   integrity sha1-37GiJN06Wput5DNwElA9cQ5Thmg=
   dependencies:
     aws-sign "~0.3.0"
