@@ -186,7 +186,7 @@ ajax-request@^1.2.3:
   integrity sha1-mfy+wdbSeS+F+pSVNTMr0U9fN5A=
   dependencies:
     file-system "^2.1.1"
-    utils-extend "^1.0.7"
+    utils-extend "^1.0.8"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1620,7 +1620,7 @@ file-match@^1.0.1:
   resolved "https://registry.yarnpkg.com/file-match/-/file-match-1.0.2.tgz#c9cad265d2c8adf3a81475b0df475859069faef7"
   integrity sha1-ycrSZdLIrfOoFHWw30dYWQafrvc=
   dependencies:
-    utils-extend "^1.0.6"
+    utils-extend "^1.0.8"
 
 file-system@^2.1.1, file-system@^2.2.2:
   version "2.2.2"
@@ -2516,7 +2516,7 @@ libp2p-crypto@~0.12.1:
     keypair "^1.0.1"
     libp2p-crypto-secp256k1 "~0.2.2"
     multihashing-async "~0.4.7"
-    node-forge "^0.7.1"
+    node-forge "^0.10.0"
     pem-jwk "^1.5.1"
     protons "^1.0.1"
     rsa-pem-to-jwk "^1.1.3"
@@ -2535,7 +2535,7 @@ libp2p-crypto@~0.13.0:
     keypair "^1.0.1"
     libp2p-crypto-secp256k1 "~0.2.2"
     multihashing-async "~0.4.8"
-    node-forge "^0.7.5"
+    node-forge "^0.10.0"
     pem-jwk "^1.5.1"
     protons "^1.0.1"
     rsa-pem-to-jwk "^1.1.3"
@@ -3035,9 +3035,9 @@ node-bin-setup@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
   integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
 
-node-forge@^0.7.1, node-forge@^0.7.5:
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.6.tgz#fdf3b418aee1f94f0ef642cd63486c77ca9724ac"
+node-forge@^0.10.0, node-forge@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#fdf3b418aee1f94f0ef642cd63486c77ca9724ac"
   integrity sha512-sol30LUpz1jQFBjOKwbjxijiE3b6pjd74YwfD0fJOKPjF+fONKb2Yg8rYgS6+bK6VDl+/wfr4IYpC7jDzLUIfw==
 
 node-libs-browser@^2.2.1:
@@ -3707,7 +3707,7 @@ request@~2.27.0:
     node-uuid "~1.4.0"
     oauth-sign "~0.3.0"
     qs "~0.6.0"
-    tunnel-agent "~0.3.0"
+    tunnel-agent "~0.6.0"
 
 require-directory@^2.1.1:
   version "2.1.1"
@@ -4442,9 +4442,9 @@ tty-browserify@0.0.0:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
-tunnel-agent@~0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.3.0.tgz#ad681b68f5321ad2827c4cfb1b7d5df2cfe942ee"
+tunnel-agent@~0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#ad681b68f5321ad2827c4cfb1b7d5df2cfe942ee"
   integrity sha1-rWgbaPUyGtKCfEz7G31d8s/pQu4=
 
 tweetnacl@^1.0.0:
@@ -4566,7 +4566,7 @@ util@^0.11.0:
   dependencies:
     inherits "2.0.3"
 
-utils-extend@^1.0.4, utils-extend@^1.0.6, utils-extend@^1.0.7:
+utils-extend@^1.0.8, utils-extend@^1.0.8, utils-extend@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/utils-extend/-/utils-extend-1.0.8.tgz#ccfd7b64540f8e90ee21eec57769d0651cab8a5f"
   integrity sha1-zP17ZFQPjpDuIe7Fd2nQZRyril8=
